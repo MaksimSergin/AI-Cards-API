@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  ai-cards-api:
+    build:
+      context: .
+    ports:
+      - "5049:5049"
+    volumes:
+      - .:/app
